@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../Shrift/Grands.ttf');
+}
+
+.header_index-bg-img {
+    margin-top: 0;
+    padding: 10rem 0px;
+    text-align: center;
+    background-image: url("../../template/img/leyendo2.jpg");
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 70px;
+}
+
+.nav-block {
+    position: absolute;
+    width: 100%;
+    padding: 20px 0 20px 30px;
+}
+
+.link-item {
+    font-size: 1.1em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-item:hover {
+    color: black;
+    outline: 1px solid #efd334;
+    -moz-outline-radius: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.active {
+    background: #efd334;
+    border-radius: 5px; 
+}
+
+.head_title {
+    margin-bottom: 50px;
+}
+
+
+.desc_title {
+    font-style: italic;
+    font-weight: bold;  
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.title-bg {
+    background: #efd334;
+    padding: 10px 20px 10px 20px;
+    transform: translateY(-20px);
+}
+
+.description {
+    line-height: 2em;
+    padding: 10px;
+}
+
+.container_category{
+    margin-left: 45px;
+}
+
+.container_item {
+    width: 18rem;
+    text-align: center;
+}
+
+.view-item {
+    margin-bottom: 40px;
+}
+
+.view-item_block {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #efd334;
+}
+
+
+
+.view-item_name {
+    margin-left: 40px;
+    line-height: 85px;
+}
+
+.card_img {
+    width: 12rem !important;
+    margin: auto;
+}
+
+.card-title_name,
+.login_form-title {
+    margin-bottom: 1.75rem;
+}
+
+.price {
+    float: right;
+}
+
+.btn_busket {
+    float: left;
+}
+
+.checkout-block,
+.text-center,
+.register-block,
+.cabinet_block{
+    margin-bottom: 50px;
+}
+
+.checkout_empty {
+    margin-left: 60px;
+}
+
+.checkout_empty-title {
+    font-size: 1.1em;
+    opacity: .6;
+}
+
+.checkout-header__title,
+.checkout-order-total {
+    padding-bottom: 5px;
+    border-bottom: 4px solid #efd334;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+.checkout-order-total {
+    border: none;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.checkout-correction {
+    display: flex;
+    align-items: center;
+}
+
+.checkout-minus {
+    margin-left: 35px;
+}
+
+.login_form {
+    width: 100%;
+    max-width: 375px;
+    padding: 0 15px 15px 15px;
+    margin: auto;
+}
+
+.login_form-title {
+    margin-bottom: 35px;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #efd334;
+}
+
+.from-group {
+    margin-bottom: 20px;
+}
+
+.cabinet_title {
+    border-bottom: 3px solid #efd334;
+}
+
+.success_title {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #efd334;
+}
+
+.checkout_title-result {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.ss {
+    display: flex;
+    justify-content: center;
+}
+
+.completion_info {
+    font-size: 1.75em;
+    border-bottom: 3px solid #efd334;
+    padding: 0 5px 7px 5px;
+}
+
+.footer_block {
+    padding-top: 35px;
+    text-align: center;
+    background: #ccc;
+    border-top: 4px solid #efd334;
+}
+
+.d-footer__socialNetwork {
+    font-family: MyWebFont;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 38px;
+}
+
+.d-footer__socialNetworkUnits {
+    width: 57px;
+    height: 57px;
+    background: #efd334;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 1.875em;
+    font-weight: 400;
+    line-height: 2;
+    margin-right: 22px;
+    transition-duration: .5s;
+}
+
+.d-footer__socialNetworkUnits:hover {
+    background: #4649e6;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.d-footer__address {
+
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.8;
+    font-style: normal;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #efd334;
+}
+
+.d-footer__copyright {
+
+    font-size: 1.25em;
+    font-weight: 400;
+    padding: 5px 0 20px 0;
+    margin-bottom: 0;
+  }
+
+  .my_content {
+    margin-bottom: 100px;
+}
+
+.goodsItemBlock {
+    padding: 0  0 10px 15px;
+    border-bottom: 3px solid #ccc;
+    margin-bottom: 35px;
+}
+.product_item {
+    margin-bottom: 25px;
+}
