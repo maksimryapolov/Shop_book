@@ -20,6 +20,9 @@
             <li class="nav-item">
                 <a class="nav-link link-item" href="/catalog/">Каталог товаров</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link link-item" href="comments">Отзывы</a>
+            </li>
             <!-- <li class="nav-item">
                 <a class="nav-link " href="/">Блог</a>
             </li>

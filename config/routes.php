@@ -14,7 +14,7 @@ return array (
     'cart/checkout' => "cart/checkout", // обработка заказа
     'cart' => 'cart/index', // корзина спсок добавленных товаров 
    
-
+    'comments' => 'comments/index',
 
     'cabinet/edit' =>'cabinet/edit', // редактирование данных
    'cabinet' => 'cabinet/index', //личный кабинет
