@@ -191,6 +191,15 @@ a:hover {
     justify-content: center;
 }
 
+.user_title-name {
+    font-size: 12px;
+    background: #ccc;
+    border: 1px solid #b1aaaa;
+    padding: 0 2px;
+    color: #b1aaaa;
+    float: right;
+}
+
 .completion_info {
     font-size: 1.75em;
     border-bottom: 3px solid #efd334;

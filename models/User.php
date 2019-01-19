@@ -115,7 +115,6 @@ class User
         $result = $db->prepare($sql);
         $result->bindParam(':id', $id, PDO::PARAM_STR); 
         $result->execute();
-
         return $user = $result->fetch(PDO::FETCH_ASSOC);
     }
     static public function edit($id, $name, $password)
