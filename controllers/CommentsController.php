@@ -43,37 +43,8 @@
                 }
                 
             }
-           
-
-           
             include ROOT . "/view/comment/index.php";
             return true;
-        }
-
-        public static function actionAddComment () 
-        {
-            // $errors = false;
-
-            // if(isset($_POST['button']))  {
-
-            //     $userId = User::checkLogged();
-                
-
-            //     $title = "";
-            //     $comment = "";
-
-            //     $title = $_POST["title"];
-            //     $comment = trim(htmlspecialchars($_POST['comment']));
-            //     $rating = $_POST["rating"];
-            //     $rating = intval($rating);
-
-            //     if(User::checkTitleComment($title)) {
-                    
-            //     }
-
-            //     $result = Comment::addComment($userId, $comment, $title);
-
-            // }
         }
     }
 ?>
