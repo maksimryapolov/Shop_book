@@ -73,7 +73,7 @@ class UserController
         $errors[] = 'Неверные данные для входа';
        } else {
          User::auth($userId);
-
+        
          header('Location: /cabinet/');
        }
 

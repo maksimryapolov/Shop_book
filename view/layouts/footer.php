@@ -12,5 +12,6 @@
         </address>
         <p class="d-footer__copyright">Copyright &copy; 2018 Портфолио PHP</p>
     </div>
-</footer>   
+</footer>
+<script src="../../template/js/jquery-3.3.1.min.js"></script>
        

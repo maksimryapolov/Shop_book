@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .ss {
+            background-image: url("../../template/img/svg/dislike-thumb_black.svg");
+            width: 20px;
+            height: 20px;
+            background-size: 20px;
+            background-repeat: no-repeat;
+        }
+        .ss:hover {
+            background-image: url("../../template/img/svg/dislike-thumb.svg");
+        }
+    </style>
+</head>
+<body>
+    <div class="rating"></div>
+        <script src="../../template/js/jquery-3.3.1.min.js"></script>
+    <script>
+        // let classs = '.ss'; 
+        $(document).ready(function() {
+            $(".rating").toggleClass(function (index, classs ) {
+                    console.log(index, classs, a);
+                });
+        });
+    </script>
+    
+    <div class="ss"></div>
+</body>
+</html>

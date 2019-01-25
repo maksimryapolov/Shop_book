@@ -49,6 +49,22 @@ class User
         return false;
     }
 
+    static public function checkTitleComment($title)
+    {
+        if (strlen($title) >= 5) {
+            return true;
+        }
+        return false;
+    }
+
+    static public function checkMessageComment($message)
+    {
+        if (strlen($message) >= 5) {
+            return true;
+        }
+        return false;
+    }
+
     //метод подготовленного запроса Email
     static public function checkEmailExists($email) {
 
